@@ -9,6 +9,7 @@ function App() {
     <BrowserRouter>
       <Header />
       <div className="App">
+           {/* <Home /> */}
         <Route path="/" exact>
           <Home />
         </Route>
